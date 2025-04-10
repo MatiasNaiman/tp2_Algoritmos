@@ -115,6 +115,7 @@ void *list_pop_tail(list_t *list){
     }
     else{
         list->tail = NULL;
+        
     }
     free(oldTail);
     list->size--;
